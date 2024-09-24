@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Library</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -14,59 +15,85 @@
           <p>It handles layout, colors, spacing, typography, and more.</p>
           <p>This is just my library where I add things as I learn them.</p>
         </section>
+        
         <section class="main-section" id="Things_that_position">
           <header>Things that position</header>
           <ul>
-          <li><b>Margin</b> - Adds space outside an element.</li>
-          <li><b>Padding</b> (top, right, bottom, left) - Adds space inside an element, between the content and the border.</li>
-          <li><b>Position</b> - Defines how an element is placed in the document.
-            <ul>
-               <li>static: default, follows the normal flow.</li>
-               <li>relative: positioned relative to its normal position.</li>
-               <li>absolute: positioned relative to the nearest positioned ancestor.</li>
-               <li>fixed: positioned relative to the viewport (remains in place during scroll).</li>
-            </ul>
-          </li>
-          <li><b>Flexbox</b> - Provides a flexible layout for aligning items in rows or columns. Key properties:
-            <ul>
-              <li>justify-content: controls horizontal alignment.</li>
-              <li>align-items: controls vertical alignment.</li></li></ul>
+            <li><b>Margin</b> - Adds space outside an element.</li>
+            <li><b>Padding</b> (top, right, bottom, left) - Adds space inside an element, between the content and the border.</li>
+            <li><b>Position</b> - Defines how an element is placed in the document.
+              <ul>
+                 <li>static: default, follows the normal flow.</li>
+                 <li>relative: positioned relative to its normal position.</li>
+                 <li>absolute: positioned relative to the nearest positioned ancestor.</li>
+                 <li>fixed: positioned relative to the viewport (remains in place during scroll).</li>
+              </ul>
+            </li>
+            <li><b>Flexbox</b> - Provides a flexible layout for aligning items in rows or columns. Key properties:
+              <ul>
+                <li>justify-content: controls horizontal alignment.</li>
+                <li>align-items: controls vertical alignment.</li>
+              </ul>
+            </li>
           </ul>
         </section>
+
         <section class="main-section" id="Things_that_give_colors">
           <header>Things that give colors</header>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p><p></p>
-          <p></p>
-          <p></p>
+          <ul>
+            <li><b>Background-Color</b> - Sets the background color of an element. Can be defined using color names, HEX codes, RGB, or HSL.</li>
+            <li><b>Text Color</b> - Sets the color of the text inside an element.</li>
+            <li><b>Opacity</b> - Adjusts the transparency of an element. Values range from 0 (fully transparent) to 1 (fully opaque).</li>
+          </ul>
         </section>
-        <section class="main-section" id="Testing">
-          <header>Testing</header>
-          <p></p>
-          <p></p>
-          <code></code>
-          <code></code>
-          <code></code>
-          <code></code>
-          <code></code>
+
+        <section class="main-section" id="Things_that_give_borders">
+          <header>Things that give borders</header>
+          <ul>
+            <li><b>Border</b> - Adds a border around an element. Consists of width, style (solid, dashed, dotted, etc.), and color.</li>
+            <li><b>Border-Radius</b> - Rounds the corners of an element’s border. Values can be set in pixels or percentages.</li>
+          </ul>
         </section>
-        <section class="main-section" id="Creating">
-          <header>Creating</header>
-          <p></p>
-          <p></p>
-        </section> 
+
+        <section class="main-section" id="Typography">
+          <header>Typography</header>
+          <ul>
+            <li><b>Font-Family</b> - Defines the font for the text inside an element. It's recommended to include a fallback font.</li>
+            <li><b>Font-Size</b> - Sets the size of the text inside an element. Values can be in pixels, em, rem, or percentage.</li>
+            <li><b>Font-Weight</b> - Specifies the thickness or boldness of the text (e.g., normal, bold, or numerical values).</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Box_Model">
+          <header>Box Model</header>
+          <ul>
+            <li><b>Content</b> - The actual content of the element (e.g., text, image).</li>
+            <li><b>Padding</b> - Space between the content and the border.</li>
+            <li><b>Border</b> - The edge around the padding. Can have width, style, and color.</li>
+            <li><b>Margin</b> - Space outside the border, separating the element from other elements.</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Overflow">
+          <header>Overflow</header>
+          <ul>
+            <li><b>Visible</b> - Default. Content that overflows is visible outside the element’s box.</li>
+            <li><b>Hidden</b> - Cuts off content that overflows the element's box, hiding it from view.</li>
+            <li><b>Scroll</b> - Adds scrollbars when content overflows, allowing the user to scroll.</li>
+          </ul>
+        </section>
+ 
+
         <nav id="navbar">
-          <header>My Creative Process</header> 
+          <header>CSS Library</header> 
           <a class="nav-link" href="#Introduction">Introduction</a>
           <a class="nav-link" href="#Things_that_position">Things that position</a>
           <a class="nav-link" href="#Things_that_give_colors">Things that give colors</a>
-          <a class="nav-link" href="#Testing">Testing</a>
-          <a class="nav-link" href="#Creating">Creating</a>
-      </nav>
+          <a class="nav-link" href="#Things_that_give_borders">Things that give borders</a>
+          <a class="nav-link" href="#Typography">Typography</a>
+          <a class="nav-link" href="#Box_Model">Box Model</a>
+          <a class="nav-link" href="#Overflow">Overflow</a>
+        </nav>
     </main>
   </body>
 </html>
