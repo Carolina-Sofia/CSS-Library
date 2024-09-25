@@ -83,11 +83,33 @@ body {
     cursor: pointer;
     z-index: 1000; /* Make sure the button stays above everything */
   }
+
+
+/*Styling the section titles */
+.h1{
+  display: flex;
+  text-align: center;
+  font-size: 1.75rem;
 }
 
-/* By default, hide the menu button on larger screens */
-@media (min-width: 769px) {
-  #menu-btn {
-    display: none;
-  }
+/* General table styling */
+table.ws-table-all {
+  width: 100%; /* Full-width table */
+  border-collapse: collapse; /* Merge borders for cleaner look */
+  margin: 20px 0; /* Add space above and below the table */
+  font-size: 1em; /* Standard font size */
+}
+
+/* Table header styling */
+table.ws-table-all th {
+  background-color: #EFA9BD; /* Light pink background for the header */
+  color: #A32962; /* White text for contrast */
+  padding: 10px; /* Padding inside the header cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Table cell styling */
+table.ws-table-all td {
+  padding: 10px; /* Padding inside the cells */
+  border: 1px solid #A32962; /* Light border around the cells */
 }
