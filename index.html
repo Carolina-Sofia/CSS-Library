@@ -16,8 +16,9 @@
         <a class="nav-link" href="#Things_that_give_colors">Things that give colors</a>
         <a class="nav-link" href="#Things_that_give_borders">Things that give borders</a>
         <a class="nav-link" href="#Typography">Typography</a>
-        <a class="nav-link" href="#Box_Model">Box Model</a>
+        <a class="nav-link" href="#Box_Model">Flexbox</a>
         <a class="nav-link" href="#Overflow">Overflow</a>
+        <a class="nav-link" href="#Overflow">Variables</a>
       </nav>
       
         <section class="main-section" id="Introduction">
@@ -39,12 +40,6 @@
                  <li>relative: positioned relative to its normal position.</li>
                  <li>absolute: positioned relative to the nearest positioned ancestor.</li>
                  <li>fixed: positioned relative to the viewport (remains in place during scroll).</li>
-              </ul>
-            </li>
-            <li><b>Flexbox</b> - Provides a flexible layout for aligning items in rows or columns. Key properties:
-              <ul>
-                <li>justify-content: controls horizontal alignment.</li>
-                <li>align-items: controls vertical alignment.</li>
               </ul>
             </li>
           </ul>
@@ -116,13 +111,13 @@
         </section>
 
         <section class="main-section" id="Box_Model">
-          <header class="h1">Box Model</header>
-          <ul>
-            <li><b>content</b> - The actual content of the element (e.g., text, image).</li>
-            <li><b>padding</b> - Space between the content and the border.</li>
-            <li><b>border</b> - The edge around the padding. Can have width, style, and color.</li>
-            <li><b>margin</b> - Space outside the border, separating the element from other elements.</li>
-          </ul>
+          <header class="h1">Flexbox</header>
+          <p>You start by "activating" this feature with <b>display: flex;</b>. Provides a flexible layout for aligning items in rows or columns. Key properties: </p>
+            <ul>
+              <li>justify-content: controls horizontal alignment.</li>
+              <li>align-items: controls vertical alignment. flex-start, flex-end </li>
+              <li>flex-direction: can be row, column, row-reverse or column-reverse.</li>
+            </ul>
         </section>
 
         <section class="main-section" id="Overflow">
@@ -132,6 +127,13 @@
             <li><b>hidden</b> - Cuts off content that overflows the element's box, hiding it from view.</li>
             <li><b>scroll</b> - Adds scrollbars when content overflows, allowing the user to scroll.</li>
           </ul>
+        </section>
+
+        <section class="main-section" id="Overflow">
+          <header class="h1">Variables</header>
+         <p>The main advantage of using variables, being able to quickly change many values in your stylesheet by just changing the value of a variable. The strucutre
+          of the variable should look like this: var(--variable-name, value); Afterwards we can just use var(--building-color1) as the value
+          for the properties we want to change with the variable.</p>
         </section>
  
     </main>
