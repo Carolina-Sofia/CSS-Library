@@ -1,16 +1,19 @@
 /* General body styling */
 body {
-    display: flex; /* Sets a flex container to manage the layout */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    font-family: Arial, sans-serif; /* Sets the default font */
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
   }
   
   /* Main content styling */
   #main-doc {
-    margin-left: 300px; /* Creates space for the navbar on the left side */
-    padding: 20px; /* Adds padding around the content */
-    width: calc(100% - 300px) /* Ensures the content takes the full available width (minus the navbar space) */
+    padding-left: 330px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: calc(100% - 300px); /* Ensures the content takes the full available width (minus the navbar space) */
+    background-color: #EFA9BD;
   }
   
   /* Navbar styling for larger screens */
@@ -18,12 +21,14 @@ body {
     position: fixed; /* Fixes the navbar in place, even when the user scrolls */
     top: 0; /* Aligns the navbar to the top of the viewport */
     left: 0; /* Aligns the navbar to the left side of the viewport */
-    width: 250px; /* Sets the navbar's width to 250px */
+    width: 250px; 
     height: 100%; /* Makes the navbar span the entire height of the viewport */
-    background-color: #f4f4f4; /* Sets a light gray background color */
-    border-right: 1px solid #ddd; /* Adds a subtle right border for separation from the main content */
-    padding: 20px; /* Adds padding inside the navbar */
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Adds a shadow effect for a slightly lifted appearance */
+    background-color: #DE7CA9; 
+    padding-left: 40px; 
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
     overflow-y: auto; /* Allows the navbar content to scroll vertically if it overflows the screen */
   }
   
@@ -43,19 +48,18 @@ body {
   
   /* Hover effect for the navbar links */
   #navbar .nav-link:hover {
-    color: #007BFF; /* Changes the link color to blue when hovered */
+    color: #A32962; /* Changes the link color to blue when hovered */
   }
   
   /* Responsive design - applies styles to devices with a width of 768px or smaller */
   @media (max-width: 768px) {
     #navbar {
-      width: 100px; /* Makes the navbar take up the full width of the screen */
-      height: auto; /* Allows the height of the navbar to adjust based on its content */
-      position: fixed; /* Changes the navbar to relative positioning so it scrolls with the page */
+      transform: translateX(-100%); /* Hide the navbar off-screen */
+      width: 200px; /* Adjust width for smaller screens */
     }
   
     #main-doc {
-      margin-left: 0; /* Removes the left margin, since the navbar is no longer fixed */
+      padding: 20px;
       width: 100%; /* Full-width content for small screens */
     }
   
@@ -64,4 +68,26 @@ body {
       margin: 10px; /* Adds space around the links */
     }
   }
-  
+
+  /* Show the menu button */
+  #menu-btn {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #DE7CA9;
+    color: #A32962;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000; /* Make sure the button stays above everything */
+  }
+}
+
+/* By default, hide the menu button on larger screens */
+@media (min-width: 769px) {
+  #menu-btn {
+    display: none;
+  }
+}
