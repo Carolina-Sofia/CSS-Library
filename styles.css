@@ -3,7 +3,8 @@ body {
     display: flex; 
     margin: 0; 
     padding: 0; 
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
+    color: #5e3023; 
   }
   
   /* Main content styling */
@@ -13,7 +14,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     width: calc(100% - 300px); /* Ensures the content takes the full available width (minus the navbar space) */
-    background-color: #EFA9BD;
+    background-color: #f3e9dc;
   }
   
   /* Navbar styling for larger screens */
@@ -23,7 +24,7 @@ body {
     left: 0; /* Aligns the navbar to the left side of the viewport */
     width: 250px; 
     height: 100%; /* Makes the navbar span the entire height of the viewport */
-    background-color: #DE7CA9; 
+    background-color: #c08552; 
     padding-left: 40px; 
     padding-right: 20px;
     padding-top: 20px;
@@ -43,12 +44,12 @@ body {
     display: block; /* Makes each link take up the full width (block element) */
     margin: 10px 0; /* Adds vertical space between links */
     text-decoration: none; /* Removes the default underline from links */
-    color: #333; /* Sets the text color to dark gray */
+    color: #5e3023; /* Sets the text color to dark gray */
   }
   
   /* Hover effect for the navbar links */
   #navbar .nav-link:hover {
-    color: #A32962; /* Changes the link color to blue when hovered */
+    color: #895737; /* Changes the link color to blue when hovered */
   }
   
   /* Responsive design - applies styles to devices with a width of 768px or smaller */
@@ -75,8 +76,8 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #DE7CA9;
-    color: #A32962;
+    background-color: #c08552;
+    color: #5e3023;
     border: none;
     padding: 10px;
     font-size: 20px;
@@ -102,8 +103,8 @@ table.ws-table-all {
 
 /* Table header styling */
 table.ws-table-all th {
-  background-color: #EFA9BD; /* Light pink background for the header */
-  color: #A32962; /* White text for contrast */
+  background-color: #c08552; /* Light pink background for the header */
+  color: #5e3023; /* White text for contrast */
   padding: 10px; /* Padding inside the header cells */
   text-align: left; /* Align text to the left */
 }
@@ -111,5 +112,5 @@ table.ws-table-all th {
 /* Table cell styling */
 table.ws-table-all td {
   padding: 10px; /* Padding inside the cells */
-  border: 1px solid #A32962; /* Light border around the cells */
+  border: 1px solid #8957372; /* Light border around the cells */
 }
