@@ -49,7 +49,7 @@ body {
   
   /* Hover effect for the navbar links */
   #navbar .nav-link:hover {
-    color: #895737; /* Changes the link color to blue when hovered */
+    color: #895737; /* Changes the link color when hovered */
   }
   
   /* Responsive design - applies styles to devices with a width of 768px or smaller */
@@ -91,7 +91,7 @@ body {
   display: flex;
   text-align: center;
   font-size: 1.75rem;
-}
+  }
 
 /* General table styling */
 table.ws-table-all {
@@ -112,5 +112,5 @@ table.ws-table-all th {
 /* Table cell styling */
 table.ws-table-all td {
   padding: 10px; /* Padding inside the cells */
-  border: 1px solid #8957372; /* Light border around the cells */
+  border: 1px solid #895737; /* Light border around the cells */
 }
