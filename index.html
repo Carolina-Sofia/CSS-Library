@@ -15,6 +15,8 @@
         <a class="nav-link" href="#Things_that_position">Things that position</a>
         <a class="nav-link" href="#Things_that_give_colors">Things that give colors</a>
         <a class="nav-link" href="#Things_that_give_borders">Things that give borders</a>
+        <a class="nav-link" href="#Things_that_link">Things that link</a>
+        <a class="nav-link" href="#Images">Images</a>
         <a class="nav-link" href="#Typography">Typography</a>
         <a class="nav-link" href="#Box_Model">Flexbox</a>
         <a class="nav-link" href="#Overflow">Overflow</a>
@@ -61,6 +63,34 @@
         <ul>
           <li><code>border</code> - Adds a border around an element. Consists of width, style (solid, dashed, dotted, etc.), and color.</li>
           <li><code>border-radius</code> - Rounds the corners of an element’s border. Values can be set in pixels or percentages.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Things_that_link"></section>
+        <header class="h1">Things that link</header>
+        <ul>
+          <li><code>&lt;link&gt;</code> - only used on the head portion of html.</li>
+          <li><code>&lt;a&gt;&lt;/a&gt;</code> anchor element that actually links to other pages.</li>
+          <li><code>target</code> - defines where the link is opened.
+            <ul>
+              <li><code>_blank</code>: opens the document in a new window or tab.</li>
+              <li><code>_self</code>: default, opens the document in the same window/tab as it was clicked.</li>
+              <li><code>_parent</code>: opens the document in the parent frame.</li>
+              <li><code>_top</code>: opens the document in the full body of the window.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Images"></section>
+        <header class="h1">Images</header>
+        <ul>
+          <li><code>loading=""</code> - can be set to lazy to tell the browser not to fetch the image resource until it is needed 
+            (as in, when the user scrolls the image into view). As an additional benefit, lazy loaded elements will not load until the 
+            non-lazy elements are loaded - this means users with slow internet connections can view the content of your page without
+             having to wait for the images to load.</li>
+          <li><code>alt=""</code> - images should always have an alternative text to help screen-reading tools describe 
+            images to visually impaired readers and allows search engines to better crawl and rank the website.</li>
         </ul>
       </section>
 
