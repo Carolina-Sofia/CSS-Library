@@ -1,6 +1,6 @@
 # CSS Library
 
-This project is a personal **CSS Library** where I document various CSS properties, techniques, and concepts as I learn them. It's meant to be a growing collection of useful CSS tricks, layout methods, and styling concepts.
+This project is a personal **HTML / CSS Library** where I document various HTML and CSS properties, techniques, and concepts as I learn them. It's meant to be a growing collection of useful CSS tricks, layout methods, and styling concepts.
 I know this is in no way complex, it's just meant to help me study. :star:
 
 ## Features
