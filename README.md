@@ -29,10 +29,12 @@ I know this is in no way complex, it's just meant to help me study. :star:
 2. **Positioning**: Covers CSS properties like `margin`, `padding`, and `position` with examples.
 3. **Colors**: Explains how to use `background-color`, `color`, and `opacity` to style elements.
 4. **Borders**: Demonstrates how to style borders using `border` and `border-radius`.
-5. **Typography**: Provides a table with different font families and examples of their usage.
-6. **Flexbox**: Describes the basics of CSS Flexbox layout.
-7. **Overflow**: Shows how to handle content overflow with `visible`, `hidden`, and `scroll`.
-8. **CSS Variables**: Explains the use of CSS custom properties (variables) for reusable styles.
+5. **Links**: Demonstrates how to link to other webpages.
+6. **Images**: Explains how to add images and edit their features.
+7. **Typography**: Provides a table with different font families and examples of their usage.
+8. **Flexbox**: Describes the basics of CSS Flexbox layout.
+9. **Overflow**: Shows how to handle content overflow with `visible`, `hidden`, and `scroll`.
+10. **CSS Variables**: Explains the use of CSS custom properties (variables) for reusable styles.
 
 ## Future Plans
 - Add more sections covering advanced CSS techniques like animations, grids, and media queries.
